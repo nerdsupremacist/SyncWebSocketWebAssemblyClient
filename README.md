@@ -22,7 +22,7 @@ This provides a connection to consume a synced object from a WebSocket using [Sy
 ## Installation
 ### Swift Package Manager
 
-You can install Sync Tokamak via [Swift Package Manager](https://swift.org/package-manager/) by adding the following lines to your `Package.swift`:
+You can install Sync WebSocket WebAssemly Client via [Swift Package Manager](https://swift.org/package-manager/) by adding the following lines to your `Package.swift`:
 
 ```swift
 import PackageDescription
@@ -31,7 +31,7 @@ let package = Package(
     [...]
     dependencies: [
         .package(url: "https://github.com/nerdsupremacist/Sync.git", from: "1.0.0"),
-        .package(url: "https://github.com/nerdsupremacist/SyncTokamak.git", from: "0.1.0"),
+        .package(url: "https://github.com/nerdsupremacist/SyncWebSocketWebAssemblyClient.git", from: "0.1.0"),
     ]
 )
 ```
@@ -40,4 +40,4 @@ let package = Package(
 Contributions are welcome and encouraged!
 
 ## License
-Sync Sync Tokamak is available under the MIT license. See the LICENSE file for more info.
+Sync WebSocket WebAssemly Client is available under the MIT license. See the LICENSE file for more info.
